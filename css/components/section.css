@@ -9,7 +9,10 @@
     margin-bottom: 60px;
 }
 
-.section.-second {
+.section.-bgBlack {
     background-color: #000;
+}
+
+.section.-bdFirst {
     border-bottom: 10px solid #565CF0;
 }
