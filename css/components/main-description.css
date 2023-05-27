@@ -2,5 +2,9 @@
     color: #FFF;
     font-size: 30px;
     font-weight: 300;
+<<<<<<< HEAD
     line-height: 1.4;
+=======
+    line-height: 1.4;  /*1.4 x font-size*/
+>>>>>>> f074428cbb012546a3ed8e4ca6bbc089b2cef6de
 }
