@@ -3,19 +3,11 @@
     height: 50px;
     background-color: #565CF0;
     box-shadow: 5px 5px 0px #000;
-<<<<<<< HEAD
     cursor: pointer;   
 }
 
 .button-arrow .content {
     display: none;
-=======
-    cursor: pointer;
-}
-
-.button-arrow .content {
-    display: none; 
->>>>>>> f074428cbb012546a3ed8e4ca6bbc089b2cef6de
 }
 
 .button-arrow::before {
@@ -25,12 +17,7 @@
     width: 15px;
     height: 15px;
     border: 15px solid transparent;
-<<<<<<< HEAD
     border-left: 28px solid #FFF;
-=======
-    border-left: 28px solid white;
-
->>>>>>> f074428cbb012546a3ed8e4ca6bbc089b2cef6de
     transform: translateX(5px);
 }
 

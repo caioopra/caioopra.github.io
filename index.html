@@ -27,12 +27,15 @@
     <link rel="stylesheet" href="css/components/card-project.css" />
     <link rel="stylesheet" href="css/components/wrapper-card.css" />
     <link rel="stylesheet" href="css/components/main-description.css" />
+    <link rel="stylesheet" href="css/components/main-carousel.css" />
     <link rel="stylesheet" href="css/components/button-arrow.css" />
+    <link rel="stylesheet" href="css/components/node-card.css" />
+    <link rel="stylesheet" href="css/components/main-footer.css">
   </head>
 
   <body>
     <header class="main-header">
-      <img src="assets/img/logo.png" alt="Avatar do Caio Prá" id="logo" />
+      <img src="assets/img/logo-nova.png" alt="Avatar do Caio Prá" id="logo" />
 
       <nav>
         <a class="main-action" href="" lang="en">Skills</a>
@@ -177,7 +180,7 @@
           <figure class="card-project">
             <img
               class="logo -project"
-              src="assets/img/logo.png"
+              src="assets/img/logo-nova.png"
               alt="Logo Caio"
             />
           </figure>
@@ -188,24 +191,91 @@
     <section class="main-section -bgSecond -bdBlack">
       <h2 class="main-title -second">Sobre</h2>
       <p class="main-description">
-        Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já
-        trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI
-        como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho
-        conforme o percorre. Marco também tem uma crescente presença em
-        comunidades de UX e Front-end, trabalhando para uní-las, palestra em
-        empresas e eventos como o WebBR, escreve em diversos blogs como o da
-        Caelum, o Pinceladas da Web e seu Medium, quando não está jogando
-        Airsoft ou trocando ideias com amigos.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+        arcu dolor. Fusce et nibh nec urna finibus euismod eu vitae orci. Morbi
+        at euismod ipsum. Duis hendrerit pharetra laoreet. Proin eleifend urna
+        purus, fringilla elementum erat egestas a. Quisque diam purus, porta sit
+        amet tortor a, porttitor tempus nisi. Ut nec commodo metus. Nulla nisl
+        elit, mollis ut lacus vitae, luctus elementum dolor. Ut ac mi rhoncus,
+        dignissim diam sed, ultrices ante. Pellentesque quis risus interdum,
+        fermentum quam eu, finibus sem.
       </p>
 
-      <button class="button-arrow -left"><span class="content">Avançar</span></button>
-      
-      <figure class="node-card">
-        <figcaption class="title">2012</figcaption>
-        <img src="assets/img/logo-locaweb.png" alt="Logo da Locaweb" class="logo">
-      </figure>
+      <section class="main-carousel">
+        <button class="button-arrow -left">
+          <span class="content">Avançar</span>
+        </button>
 
-      <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        <div class="items">
+          <div class="elements">
+            <figure class="node-card">
+              <figcaption class="title">2012</figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-locaweb.png" alt="Logo da Locaweb" />
+              </div>
+            </figure>
+
+            <figure class="node-card -clean">
+              <figcaption class="title">2014</figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-caelum.png" alt="Logo da Caelum" />
+              </div>
+            </figure>
+
+            <figure class="node-card -first">
+              <figcaption class="title">2016</figcaption>
+              <div class="logo">
+                <img
+                  src="assets/img/logo-getninjas.png"
+                  alt="Logo da GetNinjas"
+                />
+              </div>
+            </figure>
+
+            <figure class="node-card -clean">
+              <figcaption class="title">2017</figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-caelum.png" alt="Logo da Caelum" />
+              </div>
+            </figure>
+
+            <figure class="node-card">
+              <figcaption class="title">2018</figcaption>
+              <div class="logo">
+                <img src="assets/img/logo-impulso.png" alt="Logo da Impulso" />
+              </div>
+            </figure>
+
+            <figure class="node-card -first">
+              <figcaption class="title">2018</figcaption>
+              <div class="logo">
+                <img
+                  src="assets/img/logo-collabcode.png"
+                  alt="Logo da CollabCode"
+                />
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <button class="button-arrow -right">
+          <span class="content">Voltar</span>
+        </button>
+      </section>
     </section>
+
+    <footer class="main-footer">
+      <a class="action" href="">
+        <img src="assets/img/icon-twitter.png" alt="Logo do Twitter em pixel art" />
+      </a>
+      <a class="action" href="mailto:caioprsilva@gmail.com">
+        <img src="assets/img/icon-mail.png" alt="Logo Gmail em pixel art" />
+      </a>
+      <a class="action" href="https://www.linkedin.com/in/caio-pra/" target="_blank">
+        <img src="assets/img/icon-linkedin.png" alt="Logo do LinkedIn em pixel art" />
+      </a>
+    </footer>
+
+    <script src="js/components/main-carousel.js"></script>
   </body>
 </html>
